@@ -68,6 +68,12 @@ If the twitter plugin is not enabled the canvas will look like this:
 
 ![./doc_images/plugin_not_installed.png](./doc_images/plugin_not_installed.png)
 
+If the tweet palette item type has been added but the twitter plugin has not yet been added then
+the copied/dropped url will look like this because it is correctly matching to a tweet
+palette item, but the logic for processing the twitter url is not yet available:
+
+![./doc_images/palette_item_only.png](./doc_images/palette_item_only.png)
+
 If the twitter plugin is enabled, but the tweet palette item has not been added to the palette
 then the url will also look like the plain example above.
 
@@ -76,3 +82,6 @@ pallete then the canvas will look like this when that example url is copied or d
 
 ![./doc_images/plugin_installed.png](./doc_images/plugin_installed.png)
 
+Note: the `dropPrefixes` property in the tweet palette item JSON specifies the fragments of
+any url that will determine that the url should be treated as a tweet.  You can add (or
+edit/remove) these to modify the urls that will be treated as tweet nodes.

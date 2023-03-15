@@ -1,0 +1,17 @@
+"location": {
+  "id": "location",
+  "section": "(section name)",
+  "position": -1,
+  "icon": "/plugins/cogni-sketch-contrib-map/images/icon-location.svg",
+  "icon-alt": "icon-location",
+  "label": "location",
+  "nodeColor": "blue",
+  "settings": {
+    "canChangeTypeAfterCreation": true,
+    "defaultMapWidth": "100px",
+    "dropPartials": [
+      "/maps/place"
+    ]
+  },
+  "actions": {}
+}

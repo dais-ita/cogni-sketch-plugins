@@ -5,7 +5,10 @@ The following plugins are included in this repository:
 * **cogni-sketch-contrib-twitter** - tweet palette item which dynamically renders tweet urls on
   the canvas
 
-To make all of the plugins in this repository available to your cogni-sketch enviornment simply
+* **cogni-sketch-contrib-map** - location palette item to capture geospatial information, plus
+  map pane to render all geospatial information from the canvas
+
+* To make all of the plugins in this repository available to your cogni-sketch enviornment simply
 clone this repository and reloacte and rename the cloned folder to `plugins` within the main
 `cogni-sketch` folder.  Alternatively you can manually copy individual plugin sub-folders into
 the `cogni-sketch/plugins` folder and with any other plugins from other repositories.
